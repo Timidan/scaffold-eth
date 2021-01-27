@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "complete",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "completed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/packages/hardhat/contracts/ExampleExternalContract.sol": "ExampleExternalContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/packages/hardhat/contracts/ExampleExternalContract.sol": {
+			"keccak256": "0x1cc786de5504a25b0277965d3de897f431136b9d08569839fd8d054dad4e8f1d",
+			"urls": [
+				"bzz-raw://0612a37eab60c88dc6f3a588047db0fa632cd911b9a17e03a51edcf77b56122a",
+				"dweb:/ipfs/QmNQxjx6K1SfjHCV2GMtE5YikRd9BMqP2botfWbZcJVues"
+			]
+		}
+	},
+	"version": 1
+}
